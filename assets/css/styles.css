@@ -1,3 +1,13 @@
+.navbar {
+  background-color: #000!important;
+  opacity: 0.8;
+}
+
+.fab.fa-apple.apple-logo {
+  font-size: 21px;
+  line-height: 0;
+}
+
 body {
   padding-top: 50px;
 }
@@ -20,7 +30,14 @@ body {
 
 h1 {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 22px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-weight: 500;
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -157,8 +174,8 @@ h1 {
   font-weight: bold;
 }
 
-.navbar {
-  background-color: #000!important;
+footer {
   opacity: 0.8;
+  color: #000!important;
 }
 
